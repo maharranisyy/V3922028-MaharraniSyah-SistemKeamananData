@@ -1,0 +1,31 @@
+/* Style the body with blue-gray background */
+body {
+    height: 100vh;
+    background-image: url(gambar/image.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.output-box {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(175, 185, 199, 0.856);
+    border: 1px solid #ADD8E6;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    color: #072731; /*warna teks*/
+    font-size: 25px;
+}
+
+.output-text {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.result {
+    font-size: 28px;
+    font-weight: bold;
+}

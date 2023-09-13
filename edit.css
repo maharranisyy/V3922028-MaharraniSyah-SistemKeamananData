@@ -1,0 +1,57 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Style the body with blue-gray background */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-size: cover;
+    background-image: url(gambar/image.avif);
+    justify-content: center;
+    color: #000; /* Warna teks hitam */
+    text-align: center;
+}
+/* Style the container */
+.container {
+    background-color: #aebabe; /* Warna putih */
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+}
+/* Style the headings */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000; /* Warna teks hitam */
+}
+/* Style the form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000; /* Warna teks hitam */
+}
+/* Style the input fields */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000; /* Warna border hitam */
+    border-radius: 5px;
+}
+/* Style the submit buttons */
+input[type="submit"] {
+    background-color: #6c757d; /* Warna biru abu (blue gray) */
+    color: #fff; /* Warna teks putih */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #555; /* Warna biru abu (blue gray) yang lebih gelap saat digulirkan */
+}
